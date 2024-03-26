@@ -4,7 +4,7 @@ Ce projet vise à automatiser le processus d'extraction d'informations à partir
 Ici nous utilisons deux approches.
 
     1) L'approche tradictionnelle
-    2) Un modèle pré-entrainé pour repondre
+    2) Un modèle pré-entrainé 
 
 # Questions:
 
