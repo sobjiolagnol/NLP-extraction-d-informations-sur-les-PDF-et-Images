@@ -1,15 +1,18 @@
+# **Projet d'analyse d'une facture**
 
 Ce projet vise à automatiser le processus d'extraction d'informations à partir de factures en utilisant des techniques de Traitement du Langage Naturel (NLP).
+Ici nous utilisons deux approches.
 
-`Description`
-Le code fourni ici utilise plusieurs bibliothèques Python pour extraire des informations à partir d'une image de facture et PDF. Voici un aperçu de ce que le code accomplit :
+    1) L'approche tradictionnelle
+    2) Un modèle pré-entrainé pour repondre
 
-`Extraction de texte de l'image PDF :`
-L'image du PDF est ouverte et le texte est extrait en utilisant Tesseract OCR.
-Extraction des articles de la facture :
-Les informations sur les articles, telles que la description, la quantité, le prix unitaire, etc., sont extraites à l'aide d'expressions régulières.
+# Questions:
 
-`Traitement sémantique avec spaCy :`
-Des informations spécifiques telles que le numéro de facture sont extraites à l'aide d'expressions régulières.
-L'analyse sémantique est effectuée à l'aide de spaCy pour extraire des entités nommées comme les noms de vendeur et de client.
+    1) how many invoice items are listed?
+    2) what's the tax ratio applied?
+    3)  can you give the sum of the growth worth of the two fist items?
+
+
+# Description
+Le code fourni extrait des informations à partir d'une image de facture et de fichiers PDF en utilisant Tesseract OCR pour le texte, des expressions régulières pour les articles de facturation, et spaCy pour l'analyse sémantique afin d'extraire des entités telles que les descriptions, la quantité,..etc. et mettre un modèle sur pieds pour repondre à certaines questions.
 
