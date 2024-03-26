@@ -1,6 +1,6 @@
 # **1) Projet d'analyse d'une facture**
 
-Ce projet vise à automatiser le processus d'extraction d'informations à partir de factures en utilisant des techniques de Traitement du Langage Naturel (NLP).
+Ce projet vise à automatiser le processus d'extraction d'informations à partir de factures en utilisant des techniques de Traitement du Langage Naturel (NLP) pour répondre à des questions de l'utilisateur.
 Ici nous utilisons deux approches.
 
     1) L'approche tradictionnelle
