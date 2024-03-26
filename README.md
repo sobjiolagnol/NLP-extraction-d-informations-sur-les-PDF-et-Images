@@ -15,7 +15,7 @@ Ici nous utilisons deux approches.
 
 # Description
        
-       Le code fourni extrait des informations à partir d'une image de facture et de fichiers PDF en utilisant Tesseract OCR pour le texte, des expressions régulières pour les articles de facturation, et spaCy pour l'analyse sémantique afin d'extraire des entités telles que les descriptions, la quantité,..etc. et mettre un modèle sur pieds pour repondre à certaines questions.
+Le code fourni extrait des informations à partir d'une image de facture et de fichiers PDF en utilisant Tesseract OCR pour le texte, des expressions régulières pour les articles de facturation, et spaCy pour l'analyse sémantique afin d'extraire des entités telles que les descriptions, la quantité,..etc. et mettre un modèle sur pieds pour repondre à certaines questions.
 
 
 
