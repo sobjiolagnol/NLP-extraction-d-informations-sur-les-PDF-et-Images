@@ -53,7 +53,12 @@ Toutes les données sont réelles, provenant d'annonces d'emploi en direct, et s
 * Explorer la description du poste (`FullDescription`), puis effectuer un prétraitement et une vectorisation à l'aide de la méthode `TF-IDF`.
 * Diviser les données en conservant 20 % pour les tests. N'oubliez pas de fixer l'état aléatoire.
 * Utiliser une régression Ridge en ne prenant en compte que les caractéristiques extraites des descriptions de poste. Évaluer le modèle avec la métrique $R^2$ sur les données d'entraînement et de test.
-* Vérifier le modèle en utilisant les tests suivants : `'Directeur'`, `'Manager'`, `'Data Scientist'`, `'Data Engineer'`, `'Machine Learning Engineer'`.
+* Vérifier le modèle en utilisant les tests suivants :
+* `'Directeur'`,
+* `'Manager'`,
+* `'Data Scientist'`,
+*  `'Data Engineer'`,
+*  `'Machine Learning Engineer'`.
 * Afficher les 10 caractéristiques avec les poids positifs les plus élevés et les 10 caractéristiques avec les poids négatifs les plus élevés.
 * Essayer différentes valeurs d'hyperparamètres :
     * Algorithmes `Ridge`/`Lasso` : paramètre de régularisation.
